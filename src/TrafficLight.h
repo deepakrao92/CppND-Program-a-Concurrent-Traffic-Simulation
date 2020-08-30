@@ -52,8 +52,8 @@ public:
     void simulate();   
 
 private:
-    std::condition_variable _condition;
-    std::mutex _mutex;
+    // std::condition_variable _condition;
+    // std::mutex _mutex;
     TrafficLightPhase _currentPhase;
 
     // typical behaviour methods
